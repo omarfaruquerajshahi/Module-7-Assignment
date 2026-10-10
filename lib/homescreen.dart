@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Colors.grey[200],
       appBar: AppBar(
         backgroundColor: const Color(0xFF3F6B7A),
-        title: const Text('Contact List'),
+        title: const Text('Contact List', style: TextStyle(color: Colors.white70)),
         centerTitle: true,
       ),
       body: Padding(
